@@ -19,6 +19,13 @@ const translations = {
     heading: 'Kurs USD/EUR na złoty polski ({year})',
     maxRate: 'Maksymalny kurs: ',
     table: { date: 'Data', rate: 'Kурс', noData: 'Brak danych dla wybranego miesiąca.', loading: 'Ładowanie...', error: 'Błąd: ' }
+  },
+  ua: {
+    months: ['Січень','Лютий','Березень','Квітень','Травень','Червень','Липень','Серпень','Вересень','Жовтень','Листопад','Грудень'],
+    labels: { language: 'Мова:', currency: 'Валюта:', month: 'Місяць:', year: 'Рік:', button: 'Показати' },
+    heading: 'Курс USD/EUR до польського злотого ({year})',
+    maxRate: 'Максимальний курс: ',
+    table: { date: 'Дата', rate: 'Курс', noData: 'Немає даних за обраний місяць.', loading: 'Завантаження...', error: 'Помилка: ' }
   }
 };
 let currentLang = 'en';

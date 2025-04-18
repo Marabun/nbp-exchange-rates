@@ -1,16 +1,35 @@
 # Polish Zloty Exchange Rates
 
-Веб-приложение для получения максимального курса USD/EUR к польскому злотому за выбранный месяц с использованием официального API NBP.
+A web application for obtaining the maximum USD/EUR to Polish Zloty exchange rate for a selected month using the official NBP API.
 
-## Использование
-1. Откройте `index.html` в браузере.
-2. Выберите валюту (USD/EUR), месяц и год (от 2002 до текущего).
-3. Нажмите "Показать" — отобразится максимальный курс за месяц и таблица курсов по дням.
+## Usage
+1. Open `index.html` in your browser.
+2. Select the currency (USD/EUR), month, and year (from 2002 to the present).
+3. Click "Show" — the maximum exchange rate for the month and a table of daily rates will be displayed.
 
-## Технологии
+## Technologies
 - HTML, CSS, JavaScript (Vanilla)
-- [API NBP](https://api.nbp.pl/)
+- [NBP API](https://api.nbp.pl/)
 
-## Примечания
-- Курсы публикуются только в рабочие дни (выходные и праздники пропущены).
-- Для каждого месяца, начиная с 2002 года, можно получить максимальный курс USD или EUR к PLN.
+## Notes
+- Rates are published only on business days (weekends and holidays are skipped).
+- For each month starting from 2002, you can obtain the maximum USD or EUR to PLN exchange rate.
+
+---
+
+# Курс польського злотого
+
+Веб-додаток для отримання максимального курсу USD/EUR до польського злотого за обраний місяць з використанням офіційного API NBP.
+
+## Використання
+1. Відкрийте `index.html` у браузері.
+2. Виберіть валюту (USD/EUR), місяць і рік (з 2002 до поточного).
+3. Натисніть «Показати» — відобразиться максимальний курс за місяць і таблиця курсів по днях.
+
+## Технології
+- HTML, CSS, JavaScript (Vanilla)
+- [NBP API](https://api.nbp.pl/)
+
+## Примітки
+- Курси публікуються лише у робочі дні (вихідні та свята пропущені).
+- Для кожного місяця, починаючи з 2002 року, можна отримати максимальний курс USD або EUR до PLN.
