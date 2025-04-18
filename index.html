@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсы валют к злотому (NBP)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Курс USD/EUR к польскому злотому (2024)</h1>
+        <form id="rateForm">
+            <label for="currency">Валюта:</label>
+            <select id="currency">
+                <option value="usd">USD</option>
+                <option value="eur">EUR</option>
+            </select>
+            <label for="month">Месяц:</label>
+            <select id="month"></select>
+            <label for="year">Год:</label>
+            <select id="year"></select>
+            <button type="submit">Показать</button>
+        </form>
+        <div id="result">
+            <!-- Здесь будет максимальный курс и таблица -->
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
