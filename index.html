@@ -8,18 +8,26 @@
 </head>
 <body>
     <div class="container">
-        <h1>Курс USD/EUR к польскому злотому (2024)</h1>
+        <div class="language-selector">
+            <label for="language" id="language-label">Язык:</label>
+            <select id="language">
+                <option value="ru">Русский</option>
+                <option value="en">English</option>
+                <option value="pl">Polski</option>
+            </select>
+        </div>
+        <h1 id="heading">Курс USD/EUR к польскому злотому (2024)</h1>
         <form id="rateForm">
-            <label for="currency">Валюта:</label>
+            <label for="currency" id="currency-label">Валюта:</label>
             <select id="currency">
                 <option value="usd">USD</option>
                 <option value="eur">EUR</option>
             </select>
-            <label for="month">Месяц:</label>
+            <label for="month" id="month-label">Месяц:</label>
             <select id="month"></select>
-            <label for="year">Год:</label>
+            <label for="year" id="year-label">Год:</label>
             <select id="year"></select>
-            <button type="submit">Показать</button>
+            <button type="submit" id="submit-button">Показать</button>
         </form>
         <div id="result">
             <!-- Здесь будет максимальный курс и таблица -->
